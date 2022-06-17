@@ -299,6 +299,12 @@ u{
    .bar-link{
         display: block;
     }
+    .flex{
+        display: none;
+    }
+    .article{
+        width:85%;
+    }
 }
 
 @media screen and (max-width:320px){
@@ -308,9 +314,7 @@ u{
     .h1{
         font-size: 23px;
     }
-    .flex{
-        display: none;
-    }
+    
 }
 
 
