@@ -70,10 +70,11 @@ li{
     border-radius: 5px;
     border:2px solid #B4BEC8;
 }
-div > div.section1 > nav > i{
+.bar-link{
     display: none;
     color:white;
     font-size: 23px;
+    /* cursor: pointer; */
 }
 .input2{
     padding:15px;
@@ -295,8 +296,8 @@ u{
         flex-direction: column;
         left:-100%;
     }
-    div > div.section1 > nav > i{
-        display: inline;
+   .bar-link{
+        display: block;
     }
 }
 
@@ -307,5 +308,9 @@ u{
     .h1{
         font-size: 23px;
     }
+    .flex{
+        display: none;
+    }
 }
+
 

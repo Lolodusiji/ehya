@@ -18,11 +18,17 @@ nav {
     margin: auto;
     padding-top:2rem;
 }
-div.section1 > nav > i{
+/* div.section1 > nav > i{
     display: none;
     color: white;
     cursor: pointer;
     font-size:23px ;
+} */
+.bar-link{
+    display:none;
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
 }
 .section1{
     background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
@@ -574,9 +580,9 @@ span{
     /* .copyright{
         font-size: 15px;
     } */
-    .footer{
-        /* height:74vh; */
-    }
+    /* .footer{
+        height:74vh;
+    } */
     .flex6{
         gap: 5rem;
     }
@@ -651,8 +657,8 @@ span{
         flex-direction: column;
         left:-100%;
     }
-     div > div.section1 > nav > i{
-         display: inline;
+    .bar-link {
+         display: block;
          
      }
 }
